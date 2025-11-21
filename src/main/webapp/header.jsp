@@ -12,9 +12,13 @@
       <a href="about.jsp">About</a>
       <a href="skills.jsp">Skills</a>
       <a href="projects.jsp">Projects</a>
-      <a href="profile">Experience</a>
+
+      <!-- FIXED: Experience now points to the real JSP page -->
+      <a href="experience.jsp">Experience</a>
+
       <a href="resume.jsp">Resume</a>
       <a href="contact.jsp">Contact</a>
     </nav>
   </div>
 </header>
+
