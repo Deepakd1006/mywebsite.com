@@ -36,7 +36,10 @@
       <p class="lead">I build automation, pipelines, and resilient cloud infrastructure.</p>
       <p class="cta">
         <a class="btn" href="resume.jsp">Download Resume</a>
-        <a class="btn ghost" href="profile">View Experience</a>
+
+        <!-- ⭐ FIXED: View Experience goes to servlet, not raw JSP ⭐ -->
+        <a class="btn ghost" href="<%= request.getContextPath() %>/profile">View Experience</a>
+
       </p>
       <ul class="quick-skills">
         <li>AWS</li><li>Terraform</li><li>Docker</li><li>Kubernetes (EKS)</li><li>Jenkins</li>
