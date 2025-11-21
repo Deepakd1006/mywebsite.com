@@ -13,12 +13,11 @@
       <a href="skills.jsp">Skills</a>
       <a href="projects.jsp">Projects</a>
 
-      <!-- FIXED: Experience now points to the real JSP page -->
-      <a href="experience.jsp">Experience</a>
+      <!-- FIXED: Experience now goes to servlet which loads the data -->
+      <a href="<%= request.getContextPath() %>/profile">Experience</a>
 
       <a href="resume.jsp">Resume</a>
       <a href="contact.jsp">Contact</a>
     </nav>
   </div>
 </header>
-
