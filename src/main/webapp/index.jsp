@@ -14,54 +14,38 @@
 <main class="hero-wrap">
   <!-- layered background: video on top of image. If video file missing browser ignores it. -->
   <div class="hero-bg">
-    <!-- Video background (preferred). Name: assets/images/hero-bg.mp4 -->
     <video id="heroVideo" autoplay muted loop playsinline preload="auto">
       <source src="assets/images/hero-bg.webm" type="video/webm">
       <source src="assets/images/hero-bg.mp4" type="video/mp4">
-      <!-- if video sources not available, nothing happens and the <img> below is shown -->
     </video>
-
-    <!-- GIF or PNG fallback. Name: assets/images/hero-bg.gif OR assets/images/hero-bg.png -->
     <img src="assets/images/hero-bg.gif" alt="" class="hero-fallback" onerror="this.style.display='none'">
     <img src="assets/images/hero-bg.png" alt="" class="hero-fallback" onerror="this.style.display='none'">
-    
-    <!-- dark overlay to keep text readable -->
     <div class="hero-overlay" aria-hidden="true"></div>
   </div>
 
   <div class="hero container">
     <div class="hero-left">
       <h1>DEEPAK KUMAR D</h1>
-      <p class="tag">DevOps Engineer . AWS </p>
-      <p class="lead">DevOps Engineer with 3.5 Years’ Experience | Passionate About Automation & Cloud Innovation</p>
+      <p class="tag">DevOps Engineer • AWS</p>
+
+      <!-- ⭐ Updated Single-Line Tools Row ⭐ -->
+      <p class="tech-stack">
+        ☁️ AWS • 🐳 Docker • ☸️ Kubernetes (EKS) • 🛠 Terraform • 🔁 Jenkins • 📦 Ansible • 
+        🔍 Prometheus &amp; Grafana • 🔐 Trivy • 🧪 SonarQube • 🐧 Linux (Ubuntu) • 🪟 Windows • 🔧 Git &amp; GitHub
+      </p>
+
+      <p class="lead">DevOps Engineer with 3.5 Years’ Experience | Passionate About Automation &amp; Cloud Innovation</p>
       <p class="cta">
         <a class="btn" href="resume.jsp">Download Resume</a>
-
-        <!-- ⭐ FIXED: View Experience goes to servlet, not raw JSP ⭐ -->
         <a class="btn ghost" href="<%= request.getContextPath() %>/profile">View Experience</a>
       </p>
 
-      <!-- Updated quick skills with emojis + extra tools -->
-      <ul class="quick-skills">
-        <li>☁️ AWS</li>
-        <li>🐳 Docker</li>
-        <li>☸️ Kubernetes (EKS)</li>
-        <li>🛠 Terraform</li>
-        <li>🔁 Jenkins</li>
-        <li>📦 Ansible</li>
-        <li>🔍 Prometheus &amp; Grafana</li>
-        <li>🔐 Trivy</li>
-        <li>🧪 SonarQube</li>
-        <li>🐧 Linux (Ubuntu)</li>
-        <li>🪟 Windows</li>
-        <li>🔧 Git &amp; GitHub</li>
-      </ul>
-
-      <!-- Cloud platforms / services line under AWS -->
+      <!-- ⭐ Cloud Platforms / Services ⭐ -->
       <p class="cloud-services">
         <strong>Cloud Platforms:</strong> AWS<br>
         <strong>Cloud Services:</strong> EC2, EBS, EFS, S3, VPC, EKS, Route53, IAM, CloudWatch, Load Balancer, Auto Scaling
       </p>
+
     </div>
 
     <div class="hero-right">
