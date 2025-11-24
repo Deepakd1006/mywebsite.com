@@ -103,3 +103,47 @@ input[type="text"], input[type="email"], textarea, input[type="file"]{width:100%
 @media (max-width:720px){
   .project-thumb{ height:180px }
 }
+
+/* ⭐ Tech Stack under role title */
+.tech-stack {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #cfe8ff;
+  max-width: 950px;
+  line-height: 1.7;
+  opacity: 0.95;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 10px;
+}
+
+/* Wrap each tech item cleaner */
+.tech-stack span {
+  white-space: nowrap;
+}
+
+/* Hover glow effect */
+.tech-stack span:hover {
+  color: var(--accent);
+  transition: .25s ease;
+}
+
+/* ⭐ Cloud Services section */
+.cloud-services {
+  margin-top: 18px;
+  font-size: 15px;
+  color: #d8f3ff;
+  line-height: 1.55;
+}
+
+.cloud-services strong {
+  color: #bce8ff;
+}
+
+/* 📱 Mobile optimization */
+@media (max-width: 720px) {
+  .tech-stack {
+    font-size: 15px;
+    gap: 6px 8px;
+  }
+}
