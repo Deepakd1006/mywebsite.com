@@ -20,13 +20,15 @@ public class ProfileServlet extends HttpServlet {
         // Professional Summary as the first "experience" block
         HashMap<String, String> e1 = new HashMap<>();
         e1.put("role", "PROFESSIONAL SUMMARY");
+        e1.put("company", "");
+        e1.put("period", "");
         e1.put("desc",
-                "DevOps Engineer with 3.5 years of experience in building CI/CD pipelines, resolving Java/Maven build issues, and managing deployments across Dev, Test, Staging, and Production environments. " +
-                "Skilled in fixing Java version mismatches, updating environment variables like JAVA_HOME, and optimizing pom.xml for reliable builds in Jenkins and Tomcat. " +
-                "Experienced in packaging validated applications into Docker images and deploying them to Kubernetes (EKS) using automated pipelines. " +
-                "Strong background in AWS, Terraform, Ansible, Docker, and Kubernetes, with hands-on experience setting up cloud infrastructure, automating deployments, and implementing monitoring with Prometheus and Grafana. " +
-                "A detail-oriented team player with solid troubleshooting skills and a focus on automation, consistency, and smooth release workflows."
-        );
+                    "DevOps Engineer with 3.5 years of experience in building CI/CD pipelines, resolving Java/Maven build issues, and managing deployments across Dev, Test, Staging, and Production environments. " +
+                    "Skilled in fixing Java version mismatches, updating environment variables like JAVA_HOME, and optimizing pom.xml for reliable builds in Jenkins and Tomcat. " +
+                    "Experienced in packaging validated applications into Docker images and deploying them to Kubernetes (EKS) using automated pipelines. " +
+                    "Strong background in AWS, Terraform, Ansible, Docker, and Kubernetes, with hands-on experience setting up cloud infrastructure, automating deployments, and implementing monitoring with Prometheus and Grafana. " +
+                    "A detail-oriented team player with solid troubleshooting skills and a focus on automation, consistency, and smooth release workflows."
+                    );
         experiences.add(e1);
 
         // Work experience
