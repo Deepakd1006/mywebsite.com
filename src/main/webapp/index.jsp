@@ -32,18 +32,36 @@
   <div class="hero container">
     <div class="hero-left">
       <h1>DEEPAK KUMAR D</h1>
-      <p class="tag">DevOps Engineer — AWS · Terraform · Kubernetes · CI/CD</p>
-      <p class="lead">I build automation, pipelines, and resilient cloud infrastructure.</p>
+      <p class="tag">DevOps Engineer . AWS </p>
+      <p class="lead">DevOps Engineer with 3.5 Years’ Experience | Passionate About Automation & Cloud Innovation</p>
       <p class="cta">
         <a class="btn" href="resume.jsp">Download Resume</a>
 
         <!-- ⭐ FIXED: View Experience goes to servlet, not raw JSP ⭐ -->
         <a class="btn ghost" href="<%= request.getContextPath() %>/profile">View Experience</a>
-
       </p>
+
+      <!-- Updated quick skills with emojis + extra tools -->
       <ul class="quick-skills">
-        <li>AWS</li><li>Terraform</li><li>Docker</li><li>Kubernetes (EKS)</li><li>Jenkins</li>
+        <li>☁️ AWS</li>
+        <li>🐳 Docker</li>
+        <li>☸️ Kubernetes (EKS)</li>
+        <li>🛠 Terraform</li>
+        <li>🔁 Jenkins</li>
+        <li>📦 Ansible</li>
+        <li>🔍 Prometheus &amp; Grafana</li>
+        <li>🔐 Trivy</li>
+        <li>🧪 SonarQube</li>
+        <li>🐧 Linux (Ubuntu)</li>
+        <li>🪟 Windows</li>
+        <li>🔧 Git &amp; GitHub</li>
       </ul>
+
+      <!-- Cloud platforms / services line under AWS -->
+      <p class="cloud-services">
+        <strong>Cloud Platforms:</strong> AWS<br>
+        <strong>Cloud Services:</strong> EC2, EBS, EFS, S3, VPC, EKS, Route53, IAM, CloudWatch, Load Balancer, Auto Scaling
+      </p>
     </div>
 
     <div class="hero-right">
@@ -51,7 +69,7 @@
         <img src="assets/images/avatar.png" alt="avatar" class="avatar-img"/>
         <div class="meta">
           <strong>Deepak Kumar D</strong>
-          <div class="muted">DevOps • Cloud • Automation</div>
+          <div class="muted">DevOps • AWS Cloud • Automation</div>
         </div>
       </div>
     </div>
