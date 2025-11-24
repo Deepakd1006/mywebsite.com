@@ -28,16 +28,16 @@
       <h1>DEEPAK KUMAR D</h1>
       <p class="tag">DevOps Engineer • AWS</p>
 
-      <!-- ⭐ Updated Single-Line Tools Row ⭐ -->
-      <p class="tech-stack">
-        ☁️ AWS • 🐳 Docker • ☸️ Kubernetes (EKS) • 🛠 Terraform • 🔁 Jenkins • 📦 Ansible • 
-        🔍 Prometheus &amp; Grafana • 🔐 Trivy • 🧪 SonarQube • 🐧 Linux (Ubuntu) • 🪟 Windows • 🔧 Git &amp; GitHub
-      </p>
-
       <p class="lead">DevOps Engineer with 3.5 Years’ Experience | Passionate About Automation &amp; Cloud Innovation</p>
       <p class="cta">
         <a class="btn" href="resume.jsp">Download Resume</a>
         <a class="btn ghost" href="<%= request.getContextPath() %>/profile">View Experience</a>
+      </p>
+
+      <!-- ⭐ Updated Single-Line Tools Row ⭐ -->
+      <p class="tech-stack">
+        ☁️ AWS • 🐳 Docker • ☸️ Kubernetes (EKS) • 🛠 Terraform • 🔁 Jenkins • 📦 Ansible • 
+        🔍 Prometheus &amp; Grafana • 🔐 Trivy • 🧪 SonarQube • 🐧 Linux (Ubuntu) • 🪟 Windows • 🔧 Git &amp; GitHub
       </p>
 
       <!-- ⭐ Cloud Platforms / Services ⭐ -->
